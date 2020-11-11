@@ -1,0 +1,54 @@
+.mainscreen {
+    width: 100%;
+    background-image: url(../img/mainscreen-bcg.png);
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 256px 0px 156px;
+}
+
+.mainscreen__body {
+    margin: 0 auto;
+    max-width: 80%;
+    text-align: center;
+    color: #ffffff;
+}
+
+.mainscreen__body h1 {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 4em;
+    line-height: 71px;
+    color: #ffffff;
+}
+
+.mainscreen__body p {
+    font-size: 1.4em;
+    font-weight: normal;
+    line-height: 33px;
+    opacity: 0.8;
+    margin-top: 40px;
+}
+
+.btn {
+    display: inline-block;
+    cursor: pointer;
+    background-color: #e84545;
+    text-decoration: none;
+    font-size: 0.95em;
+    font-weight: bold;
+    color: #ffffff;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.mainscreen__btn {
+    padding: 18px 46px 18px 54px;
+    margin-top: 77px;
+}
+
+.btn:hover {
+    background-color: #dd2727;
+}

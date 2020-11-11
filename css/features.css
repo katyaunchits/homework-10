@@ -1,0 +1,32 @@
+.features {
+    width: 100%;
+    padding: 120px 0 50px;
+}
+
+.features__cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.features__item {
+    width: 33.333%;
+    text-align: center;
+    padding: 0 40px;
+    margin-bottom: 75px;
+}
+
+.features__item-title {
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 30px;
+    color: #333333;
+}
+
+.features__item-subtitle {
+    margin-top: 30px;
+    color: #6c7279;
+    line-height: 21px;
+    font-size: 0.95em;
+    font-weight: 400;
+}

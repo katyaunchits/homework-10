@@ -1,0 +1,151 @@
+@import "footer.css";
+@import "features.css";
+@import "header.css";
+@import "mainscreen.css";
+@import "gallery.css";
+@import "team.css";
+@import "download.css";
+@import "reviews.css";
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+a {
+    font-family: 'Raleway', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 0px 15px;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+
+/*  Media */
+
+@media (max-width: 1060px) {
+    .mainscreen__body h1 {
+        font-size: 4em;
+    }
+    .reviews__row {
+        flex-direction: column;
+    }
+    .reviews__image {
+        width: 100%;
+    }
+    .reviews__content {
+        width: 100%;
+    }
+    .reviews__content-body {
+        margin: 30px 0px;
+    }
+}
+
+@media (max-width: 991px) {
+    .header__nav {
+        display: none;
+    }
+    .gallery__item {
+        flex: 1 1 33%;
+    }
+    .last {
+        display: none;
+    }
+    .mainscreen__body h1 {
+        font-size: 3em;
+    }
+    .features {
+        padding: 60px 0px;
+    }
+    .features__item {
+        width: 50%;
+        padding: 0 30px;
+    }
+}
+
+@media (max-width: 860px) {
+    .mainscreen__body h1 {
+        font-size: 48px;
+        line-height: 50px;
+    }
+    .mainscreen__body-subtitle {
+        font-size: 2.8em;
+    }
+}
+
+@media (max-width: 767px) {
+    .mainscreen__body {
+        max-width: 100%;
+        text-align: left;
+    }
+    .mainscreen {
+        padding: 180px 0px 100px;
+    }
+    .features__item {
+        width: 85%;
+        margin: 0px auto 75px auto;
+    }
+    .features__item-title {
+        margin-top: 20px;
+    }
+    .features__item-subtitle {
+        margin-top: 20px;
+    }
+    .download__title {
+        line-height: 30px;
+    }
+    .about {
+        padding: 71px 0px 35px;
+    }
+    .footer__row {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        padding: 30px 0;
+    }
+    .footer__column {
+        margin-bottom: 60px;
+        width: 60%;
+    }
+    .footer__desc {
+        margin-top: 24px;
+    }
+}
+
+@media (max-width: 670px) {
+    .gallery__item {
+        flex: 1 1 100%;
+    }
+    .reviews__image {
+        display: none;
+    }
+    .reviews__content {
+        position: relative;
+    }
+    .reviews__content::before {
+        content: '';
+        background-image: url(../img/slider__sm.png);
+        background-size: cover;
+        background-position: center center;
+        border-radius: 50%;
+        height: 120px;
+        width: 120px;
+        position: absolute;
+        top: -95px;
+        left: 50px;
+    }
+}
+
+@media (max-width: 480px) {
+    .download__title {
+        font-size: 1.6em;
+    }
+}

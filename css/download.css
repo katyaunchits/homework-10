@@ -1,0 +1,28 @@
+.download {
+    width: 100%;
+}
+
+.download__body {
+    margin: 100px 0px;
+    text-align: center;
+}
+
+.download__title {
+    font-size: 2em;
+    font-weight: 100;
+    line-height: 21px;
+    font-weight: 400;
+}
+
+.download__subtitle {
+    font-size: 0.9em;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 20px;
+    line-height: 21px;
+}
+
+.download__btn {
+    margin-top: 40px;
+    padding: 18px 83px;
+}
